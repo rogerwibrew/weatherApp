@@ -4,6 +4,7 @@
   "description": "",
   "main": "sever.js",
   "scripts": {
+    "dev": "nodemon src/server.js -e js,handlebars",
     "start": "node src/server.js"
   },
   "keywords": [],
@@ -13,5 +14,8 @@
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
