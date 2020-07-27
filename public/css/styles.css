@@ -1,0 +1,30 @@
+body {
+  background-color: #e4e3e2;
+  color: #3b6978;
+}
+
+h1 {
+  color: #204051;
+  padding: 0.5em;
+}
+p {
+  padding: 0.5em;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  background-color: #204051;
+  color: #e4e3e2;
+}
+.icon {
+  fill: #84a9ac;
+}
+
+.btn {
+  background-color: #3b6978;
+  color: #e4e3e2 !important;
+}

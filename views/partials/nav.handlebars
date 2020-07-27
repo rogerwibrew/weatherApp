@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-dark ">
+  <a class="navbar-brand" href="#"><img src="./img/haw-weather.svg" width="30" height="30" class="d-inline-block align-top icon" alt="" styles="color:white;">
+    Weather App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link {{#if weather}}active{{/if}}" href="/">Weather{{#if weather}}<span class="sr-only">(current)</span>{{/if}}</a>
+      <a class="nav-item nav-link {{#if about}}active{{/if}}" href="/about">About{{#if about}}<span class="sr-only">(current)</span>{{/if}}</a>
+      <a class="nav-item nav-link {{#if help}}active{{/if}}" href="/help">Help{{#if help}}<span class="sr-only">(current)</span>{{/if}}</a>
+    </div>
+  </div>
+</nav>
