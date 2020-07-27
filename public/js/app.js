@@ -36,5 +36,4 @@ weatherButton.addEventListener("click", (e) => {
   e.preventDefault();
   const location = weatherForm.value;
   fetchWeather(location).then((data) => displayWeather(data));
-  console.log("clicked");
 });
