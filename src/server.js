@@ -1,6 +1,6 @@
 "use strict";
 
-const getWeather = require("./src/utils/weather");
+const getWeather = require("./utils/weather");
 
 const express = require("express");
 const exphbs = require("express-handlebars");
